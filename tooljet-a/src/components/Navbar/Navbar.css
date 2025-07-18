@@ -1,0 +1,134 @@
+.navbar-main {
+  height: 64px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 180px;
+  font-family: "Inter", sans-serif;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-left-group1 {
+  display: flex;
+  align-items: center;
+  margin-right: 35px;
+  gap: 8px;
+}
+
+.navbar-logo {
+  height: 19.99px;
+  width: 20px;
+}
+
+.navbar-title {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  font-style: medium;
+}
+
+.navbar-left-group2 {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.navbar-link {
+  color: white;
+  width: 100px;
+  height: 39px;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: color 0.2s;
+  border-radius: 20px;
+  gap: 4px;
+}
+
+.navbar-link:hover {
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(82, 82, 82, 0.4);
+}
+
+.navbar-left-group2 .navbar-link:nth-child(3) {
+  width: 66px;
+}
+
+.navbar-caret {
+  font-size: 12px;
+  margin-left: 4px;
+  color: var(--icon-secondary, #cfd3d84d);
+  width: 8px;
+  height: 4px;
+  transform: scaleX(1.5);
+  display: inline-block;
+  margin-bottom: 6px;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.navbar-login {
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: color 0.2s;
+  width: 75px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+.navbar-login:hover {
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(82, 82, 82, 0.4);
+  border-radius: 10px;
+}
+
+.navbar-cta {
+  background: none;
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(18, 18, 61, 0.54);
+  border: 1px solid rgb(9, 43, 235);
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 8px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s, border 0.2s;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+.navbar-cta:hover {
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(44, 47, 235, 0.54);
+  border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+.navbar-cta-arrow {
+  font-size: 15px;
+  margin-left: 4px;
+}
