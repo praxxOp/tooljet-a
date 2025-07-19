@@ -138,13 +138,13 @@
 
 .input-submit-btn {
   position: absolute;
-  bottom: 18px;
-  right: 24px;
+  bottom: 6px;
+  right: 18px;
   background: #3b82f6;
   color: #fff;
   border: none;
   border-radius: 8px;
-  width: 36px;
+  width: 39px;
   height: 36px;
   display: flex;
   align-items: center;
