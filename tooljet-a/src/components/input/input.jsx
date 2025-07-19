@@ -21,21 +21,21 @@ const Input = () => {
       </div>
       <div className="input-features-row">
         <div className="input-feature">
-          <span className="input-feature-icon">✔️</span>
+          <img src="/rightsign.svg" alt="check" className="input-feature-icon" />
           <div>
             <div className="input-feature-title">Lorem ipsum dolor</div>
             <div className="input-feature-desc">sit met consectetur</div>
           </div>
         </div>
         <div className="input-feature">
-          <span className="input-feature-icon">✔️</span>
+          <img src="/rightsign.svg" alt="check" className="input-feature-icon" />
           <div>
             <div className="input-feature-title">Lorem ipsum dolor</div>
             <div className="input-feature-desc">sit met consectetur</div>
           </div>
         </div>
         <div className="input-feature">
-          <span className="input-feature-icon">✔️</span>
+          <img src="/rightsign.svg" alt="check" className="input-feature-icon" />
           <div>
             <div className="input-feature-title">Lorem ipsum dolor</div>
             <div className="input-feature-desc">sit met consectetur</div>
