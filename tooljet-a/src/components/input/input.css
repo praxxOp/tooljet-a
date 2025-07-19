@@ -61,7 +61,18 @@
   outline: none;
   font-family: inherit;
   box-shadow: 0 2px 16px #0002;
+  transition: border 0.2s;
 }
+
+.input-textarea:focus {
+  border: 2px solid transparent;
+  background: 
+    linear-gradient(#212429, #212429) padding-box,
+    linear-gradient(90deg, #964810, #680b94) border-box;
+  
+}
+
+
 
 .input-tab-hint {
   position: absolute;
@@ -74,6 +85,7 @@
   padding: 2px 8px;
   border: 1px solid #3b3e5a;
   font-family: inherit;
+  cursor: pointer;
 }
 
 .input-features-row {
@@ -122,4 +134,27 @@
   height: auto;
   pointer-events: none;
   z-index: 1;
+}
+
+.input-submit-btn {
+  position: absolute;
+  bottom: 18px;
+  right: 24px;
+  background: #3b82f6;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  cursor: pointer;
+  box-shadow: 0 2px 8px #0002;
+  transition: background 0.2s;
+  z-index: 3;
+}
+.input-submit-btn:hover {
+  background: #2563eb;
 }
