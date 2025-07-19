@@ -1,0 +1,45 @@
+.open-main {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  z-index: 9999;
+  padding-top: 5%;
+}
+.open-logo {
+  width: 44px;
+  height: 44px;
+  margin-bottom: 18px;
+  z-index: 20;
+}
+.open-letters-container-vertical {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+}
+.open-letter-col {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  overflow: hidden;
+  background: none;
+  border-left: 1px solid rgb(50, 45, 45);
+}
+.open-letter {
+  color: #fff;
+  font-size: 7vw;
+  font-family: medium;
+  letter-spacing: 0.1em;
+  opacity: 0.9;
+  margin-bottom: 8px;
+}

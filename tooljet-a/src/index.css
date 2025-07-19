@@ -4,4 +4,11 @@
   box-sizing: border-box;
 }
 
-
+@font-face {
+  font-family: road;
+  src: url("./fonts/Roadam.otf");
+}
+@font-face {
+  font-family: medium;
+  src: url("./fonts/Medium.otf");
+}
