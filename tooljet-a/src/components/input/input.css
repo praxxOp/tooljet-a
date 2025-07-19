@@ -158,3 +158,14 @@
 .input-submit-btn:hover {
   background: #2563eb;
 }
+.custom-placeholder {
+  position: absolute;
+  top: 18px;
+  left: 20px;
+  color: #888ea8;
+  font-size: 16px;
+  pointer-events: none;
+  font-family: inherit;
+  line-height: 1.5;
+  white-space: pre-wrap;
+}
