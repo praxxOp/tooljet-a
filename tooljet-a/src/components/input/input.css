@@ -5,6 +5,16 @@
   font-family: 'Inter', 'IBM Plex Sans', sans-serif;
   height: 655px;
   justify-content: center;
+  background:
+    repeating-linear-gradient(
+      to right,
+      transparent 0,
+      transparent calc(20vw - 1px),
+      #212129 calc(20vw - 1px),
+      #262629 20vw
+    );
+    border-top: 1px solid rgb(50, 45, 45);
+    border-bottom: 1px solid rgb(50, 45, 45) ;
 }
 
 
